@@ -45,3 +45,5 @@ A powerful document processing application that extracts text from various file 
 ```bash
 git clone https://github.com/yourusername/document-processor.git
 cd document-processor
+Google_vision/vision.py - change the api key with yours
+Run - streamlit run app.py
