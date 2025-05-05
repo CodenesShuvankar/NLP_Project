@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="AIzaSyCOpY-QQij2ciHFJ5ZM036FhiE8zkgm3_E",
+    api_key="IzaSyCOpY-QQij2ciHFJ5ZM036FhiE8zkgm3", #change your api key accordingly 
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 def summarize(text):
