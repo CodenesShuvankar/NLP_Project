@@ -6,7 +6,7 @@ client = OpenAI(
 )
 def summarize(text):
     response = client.chat.completions.create(
-        model="gemini-2.0-flash",
+        model="gpt-4-vision-preview",
         n=1,
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
