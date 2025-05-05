@@ -106,6 +106,7 @@ def extract_metadata_from_pdf(file_path):
 
 
 # Load the spaCy model
+spacy.cli.download('en_core_web_sm')
 nlp = spacy.load('en_core_web_sm')
 
 
